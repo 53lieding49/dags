@@ -18,7 +18,7 @@ with DAG(
     dag_id='airflow_welcome_demo',
     default_args=default_args,
     description='A simple welcome DAG for demonstration purposes',
-    schedule_interval=None,  # Trigger manually for demos
+    # schedule_interval=None,  # Trigger manually for demos
     start_date=datetime(2023, 1, 1),
     catchup=False,
     tags=['demo', 'onboarding'],
